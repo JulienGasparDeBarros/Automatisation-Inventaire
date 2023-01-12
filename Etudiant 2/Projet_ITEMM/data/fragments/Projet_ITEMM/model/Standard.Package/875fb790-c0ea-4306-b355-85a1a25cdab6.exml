@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projet_itemm" version="4">
+  <OBJECT>
+    <ID name="projet_itemm" mc="Standard.Package" uid="875fb790-c0ea-4306-b355-85a1a25cdab6"/>
+    <PID name="Projet_ITEMM" mc="Standard.Project" uid="a1be8bdc-1b1c-49c3-a95b-c14ab59a61fd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[projet_itemm]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Responsable magasin" mc="Standard.Actor" uid="9a67b880-456e-4c14-b8da-dac496cbd9e4"/>
+        <COMPID name="Chargé d'inventaire" mc="Standard.Actor" uid="cfeb4857-4522-4851-8ea1-e32f64981800"/>
+        <COMPID name="Visualiser les statistiques" mc="Standard.UseCase" uid="5738b17e-881d-4859-b48c-5486c32b0583"/>
+        <COMPID name="Gérer les stocks" mc="Standard.UseCase" uid="757b7372-3dc2-4cc3-b835-f6a3fc4d5508"/>
+        <COMPID name="Ajouter/Modifier/Supprimer un article" mc="Standard.UseCase" uid="2ca97a63-91f7-40ae-9044-a3ee5720029f"/>
+        <COMPID name="Attribuer des boites d'articles à une zone" mc="Standard.UseCase" uid="41c44c42-d825-4dff-9a37-89ca9a5c72d1"/>
+        <COMPID name="Générer une demande de devis en PDF" mc="Standard.UseCase" uid="08e1b492-a469-45c5-82f1-49d0476f1d21"/>
+        <COMPID name="Générer QRCode" mc="Standard.UseCase" uid="492c5cb4-c068-45d1-a228-ebd0cc218ac0"/>
+        <COMPID name="Authentifier" mc="Standard.UseCase" uid="489522b5-7abd-4350-8c72-5dbe4dbe3d07"/>
+        <COMPID name="Générer étiquettes des boites d'articles en PDF" mc="Standard.UseCase" uid="5c337896-d7d6-4f95-b4ae-d4c9e5b87f54"/>
+        <COMPID name="Gérer les utilisateurs (Ajout/Suppresion/Modification" mc="Standard.UseCase" uid="444374ce-f368-482d-aff7-8bb35331f93f"/>
+        <COMPID name="Définir des localisation (Batiments, salles, zones" mc="Standard.UseCase" uid="644886eb-cc3f-423e-8a7c-f12520bd6d94"/>
+        <COMPID name="Consulter l'état des stocks" mc="Standard.UseCase" uid="f71504e6-e738-4c48-bd07-5cca35719b7f"/>
+        <COMPID name="Afficher les localisations d'un article" mc="Standard.UseCase" uid="1b30777c-1a60-49d8-96f3-2f09b25673e4"/>
+        <COMPID name="Mettre à jour le stock d'un satellite" mc="Standard.UseCase" uid="d966d1ad-75bf-4f1a-af03-a4ecda0e67df"/>
+        <COMPID name="Lire un QRCode" mc="Standard.UseCase" uid="3cc4171f-92c1-4e04-af72-df817dda0cf4"/>
+        <COMPID name="Afficher la description d'un article" mc="Standard.UseCase" uid="30f949b1-77a2-4d27-9bfa-30906d895061"/>
+        <COMPID name="S'authentifier sur l'application Smartphone" mc="Standard.UseCase" uid="25b4b857-fec4-4357-82ef-58c7b36df731"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation projet_itemm" mc="Standard.UseCaseDiagram" uid="bad8b8eb-1f2c-4e94-9189-3ac5581a626b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
